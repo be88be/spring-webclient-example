@@ -1,0 +1,10 @@
+logging:
+  level:
+    root: DEBUG
+    org.springframework.web.reactive.function.client.ExchangeFunctions: DEBUG
+    org.hibernate.type.descriptor.sql: trace
+  file:
+    path: target/logs
+
+server:
+  port: 8080
